@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>CHAT</title>
+</head>
+<body>
+    <div class="fixed top-0 right-0 left-0 flex h-[94%] overflow-x-hidden w-full break-all">
+      <ul class="h-auto m-0 p-0 list-none" id="messages"></ul>
+    </div>
+    <form class="bg-slate-600 p-1 fixed bottom-0 right-0 left-0 flex h-12 box-border" id="form" action="">
+      <span class="left-0 text-2xl text-red-600 mr-5">Text Length: </span> <span class="text-2xl mr-10 text-red-600" id="sim-count">0</span>
+      <input class="text-2xl border-none py-0 px-4 flex-grow m-1 rounded-3xl focus: outline-none" id="input" autocomplete="off" />
+      <button class="bg-gray-500 border-none py-0 px-4 m-1 rounded-sm outline-none text-white">Send</button>
+    </form>
+    <script type="text/javascript" src="jq.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
